@@ -174,36 +174,36 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'O.C. Tanner',
+      title: 'Sr Software Engineer',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
+      company: 'Symply',
+      title: 'Lead Software Engineer',
       logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      start: '2021',
+      end: '2022',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
+      company: 'Fidelity Investments',
+      title: 'UI Engineer',
       logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      start: '2020',
+      end: '2021',
     },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
-    },
+    // {
+    //   company: 'Starbucks',
+    //   title: 'Shift Supervisor',
+    //   logo: logoStarbucks,
+    //   start: '2008',
+    //   end: '2011',
+    // },
   ]
 
   return (
@@ -260,32 +260,32 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Sr. Software Developer, founder, and nutrition coach.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Taylor, a software developer and entrepreneur based in Salt Lake
+            City. I’m the founder and CEO of MacroFlex, where we develop
+            technologies that empower health coach and their clients to improve
+            the worlds health.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
+              href="https://twitter.com/buildwithtaylor"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
-            <SocialLink
+            {/* <SocialLink
               href="https://instagram.com"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
+            /> */}
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/taylorcovington"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://linkedin.com/taylorcovington"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
