@@ -69,9 +69,9 @@ export default function About() {
             </p>
             <p>
               The only thing I loved more than building things was health and
-              nutrition. When I was in middle school, you'd typically find me in
-              my room lifting weights and doing push ups. I was always a skinny
-              kid though and I picked up boxing in 7th grade.
+              nutrition. When I was in middle school, you would typically find
+              me in my room lifting weights and doing push ups. I was always a
+              skinny kid though and I picked up boxing in 7th grade.
             </p>
             <p>
               As I grew older I found myself more and more interested in
