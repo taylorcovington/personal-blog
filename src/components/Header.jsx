@@ -10,6 +10,7 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import avatarImage from '@/images/avatar.jpg'
+import signature from '@/images/Transparent-cyan.png'
 
 function CloseIcon(props) {
   return (
@@ -118,16 +119,20 @@ function MobileNavigation(props) {
               <Popover.Button aria-label="Close menu" className="-m-1 p-1">
                 <CloseIcon className="h-6 w-6 text-zinc-500 dark:text-zinc-400" />
               </Popover.Button>
-              <h2 className="text-sm font-medium text-zinc-600 dark:text-zinc-400">
-                Navigation
-              </h2>
+              <Image
+                src={signature}
+                alt="signature"
+                width={150}
+                // sizes="(min-width: 640px) 18rem, 11rem"
+                // className="absolute inset-0 h-full w-full object-cover"
+              />
             </div>
             <nav className="mt-6">
               <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
                 <MobileNavItem href="/about">About</MobileNavItem>
                 <MobileNavItem href="/articles">Articles</MobileNavItem>
                 <MobileNavItem href="/projects">Projects</MobileNavItem>
-                <MobileNavItem href="/speaking">Speaking</MobileNavItem>
+                {/* <MobileNavItem href="/speaking">Speaking</MobileNavItem> */}
                 <MobileNavItem href="/uses">Uses</MobileNavItem>
               </ul>
             </nav>
