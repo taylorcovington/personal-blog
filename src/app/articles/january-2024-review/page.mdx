@@ -1,0 +1,173 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import screenshot1 from './images/client-dashboard-1.png'
+import screenshot2 from './images/client-dashboard-2.png'
+import screenshot3 from './images/client-logs-1.png'
+import screenshotTwitter from './images/twitter-screenshot-goals.png'
+import habitsScreenshot1 from './images/habits-screenshot-1.png'
+
+export const article = {
+  author: 'Taylor Covington',
+  date: '2024-02-01',
+  title: 'January 2024 Monthly Review',
+  description:
+    'I cover how my year started, wins + losses, and how things are going in business.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+## Revisit my 2024 goals
+
+{' '}
+
+<Image height={500} src={screenshotTwitter} alt="" />
+
+## Business
+
+For 2024 I've made the commitment to ship 3 apps this year. In retrospecitve of 2023 I realized I've been building apps without actually shipping anything.
+
+That stops this year.
+
+My main focus is to ship 🚀.
+
+I've decided to start with [MacroFlex](www.macroflex.io) since it's the app I've been working on the longest and I'm working with a nutrition client that currently records theirs stats in a spreadsheet 😔. I want my clients to see their own health progress and analytics. As their coach, I also need insight into their progress to make adjustments. This currently can't be done well using a spreadsheet.
+
+Since I need real data to work with and I want my clients to start tracking in the app, I decided to put most of my focus into the building the client app.
+
+### Clients can:
+
+- Complete tasks assigned to them by their coach
+- Add logs:
+  - Steps
+  - Water
+  - Sleep
+  - Weight
+- Add Biofeedback
+  - This is important to keep track of things like hunger, energy, stress, mood, etc.
+- See all their log data charted
+
+### Coaches can also:
+
+- Invite clients
+- Add tasks for their client
+- Add goals for their client
+- Update settings
+
+This gives me as a coach the neccesary things I need to get my clients started.
+
+<div className="flex w-full flex-wrap gap-2">
+  <Image height={450} src={screenshot1} alt="" />
+  <Image height={450} src={screenshot2} alt="" />
+  <Image height={450} src={screenshot3} alt="" />
+</div>
+
+I'm proud of myself for coding this every day. It shows that being consistent matters. Small changes over time is what builds the life you want.
+
+It's also important to note that I re-started building this app with a new tech stack in late December 2023. so it's only a month old!
+
+### MacroFlex Coaching
+
+I'v also signed another nutrition coach client for $600 / 12 weeks. This is great validation that when people have a problem, they are willing to pay for it. This also helps me stay motivated with building MacroFlex because I'm solving my own problem with real people and I care to get them the best results.
+
+Tomorrow I'm planning on getting this client setup on MacroFlex to start testing it.
+
+This is something I really find myself enjoying. I'll get better at it with time, but I really enjoy seeing people get the results they're looking for.
+
+## Family
+
+The kids are getting big 😩🥹
+
+They all have their own personalities and are so different.
+
+Callum (20mo) is a wild guy but the sweetest. He's starting to sing with us now at night (and sometimes during the day). This kid is such a good sleeper and just goes with the flow. He's also crazy! He bites, hits, pulls hair, etc but we're working on it 😉. He's a lot of fun right now.
+
+Milo always surprises me with how big he's getting. This kid has his own friends - sometimes we don't see him for the whole day! He also has his own style and man he's a good looking boy. He's also very creative. He has spent a lot of time this month coloring Pokemon pictures and writing his own stories.
+
+Kohen is a little teenager. This kid has some great style (including a gold chain). I've also noticed he's been better about talking through his frustrations when he's upset. It's been great as a parent to learn how I can be better to help my kids.
+
+Both Kohen and Milo started Jr Jazz this month and doing great. Kohen is still crushing it in SSFC soccer, he's getting noticibly better and I love that I get to be the assistant coach of his to (secretly just to spend more time with him 🤐)
+
+As always, I'm so impressed with Brynne. She's been crushing it in the gym and has started off the year in a cut. I don't think she's missed a day of hitting her macro's and steps. So impressed 😍. She also decided to coach Milo's basketball team when no else would. I love that she stepped outside of her comfort zone and she's doing a great job.
+
+It's important to me as a husband and father to continue improving as a person, and reflecting on how things are going to create awareness.
+
+Without awareness we don't know where we can improve.
+
+I've been working on asking the kids questions more when they are upset. I've been working on being aware of when I'm feeling frustrated as well and talking about those feelings without getting upset. I feel like this teaches my kids how to manage their own emotions and talk about them.
+
+I have to be the example.
+
+## Fitness
+
+My fitness goals for 2024 is to build muscle. This has been my goal for the last....3-5 years but it's been a learning journey for me.
+
+Stats this month:
+
+- Weight: Up 1.5 lbs
+- Average steps: 10,113
+- Macro breakdown
+  - Total calories: 2,695
+  - Protein: 179
+  - Fat: 75
+  - Carbs: 326
+
+My current macros puts me in about a 400 caloric surplus. With gaining 1.5lbs this month it seems like it's the right spot. I'm aiming towards 1.5-2 lbs per month.
+
+I'm currently doing the [Swole App](https://theswoleapp.com/get-the-program1698571098025) as I transition from lifting heavy + building strength to lifting lighter to build hypertrophy. We'll see how it goes.
+
+## Habits
+
+This is one of my favorite sections. Personally I think having good, consistent habits is what helps me get results at the end of the month.
+
+Four of my favorite habits from this month are:
+
+1. Daily Dad book
+2. Daily Stoic book
+3. Read
+4. Ship it!
+
+Reading daily has always been a top priority for me. Reading the Daily Dad + Daily Stoic books have been my favorite so far. Every day you just read one article (they have one for each day) and it's usually 2 pages. I read these first thing in the morning and it really sets my day up.
+
+I'm been reading the two books below for #3:
+
+- The Art of Focus by Dan Koe
+- Million Dollar Weekend by Noah Kagan
+
+Man.... these two books are amazing. I'd highly recommend.
+
+Lastly, shipping 🚀 every day. Right now I'm mostly developing on a `main` branch and I'm pushing straight to production. Without having many users (just Brynne and I) I push all updates daily. This has been moving super quick. To make sure I get to cross this habit from the list and keep my streak (see below) I make sure to ship daily.
+
+Some habits I need to improve next month that I didn't make a priority this month:
+
+- Meditation
+- Journal (I did a few times)
+- Read scriptures (started off strong, got behind)
+
+{' '}
+
+<Image height={450} src={habitsScreenshot1} alt="" />
+
+## Looking forward
+
+This month I feel like I've made great initial progress.
+
+I need to take this momentum into February and shift my focus on [MacroFlex](www.macroflex.io) to the coaching app.
+
+Here's what I want to do next month with MacroFlex:
+
+- Coach analytics of their clients
+- Coaches can calculate and track macros for clients
+- Clients can input macros, view macros
+
+I also want to attend more of the nutrition coaching meetings + Facebook groups to help and potentially input MacroFlex when it fits. But not to be too pushy.
+
+By the end of the month I want to have 1 coach user (besides myself and Brynne) on the app - paying 🤑.
+
+This month we will also have Brynnes birthday 🎂 🎈 a soccer tournament for Kohen ⚽️
+
+See you'll next month! 👋
