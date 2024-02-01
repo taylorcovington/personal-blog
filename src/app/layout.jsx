@@ -10,7 +10,7 @@ export const metadata = {
       'Taylor Covington - Sr. Software Developer, founder, and nutrition coach',
   },
   description:
-    'I’m Taylor, a software developer and entrepreneur based in Salt Lake City. I’m the founder and CEO of MacroFlex, where we develop technologies that empower health coach and their clients to improve the worlds health.',
+    'I’m Taylor, a Software Developer and Entrepreneur based in Salt Lake City. I’m currently building MacroFlex, an app that empowers health coaches and their clients to improve the worlds health.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
