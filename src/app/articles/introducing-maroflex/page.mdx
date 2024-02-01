@@ -1,4 +1,8 @@
+import Image from 'next/image'
 import { ArticleLayout } from '@/components/ArticleLayout'
+import screenshot1 from './images/nutrition-spreadsheet-1.png'
+import screenshot2 from './images/nutrition-spreadsheet-2.png'
+import screenshot3 from './images/nutrition-spreadsheet-3.png'
 
 export const article = {
   author: 'Taylor Covington',
@@ -15,92 +19,66 @@ export const metadata = {
 
 export default (props) => <ArticleLayout article={article} {...props} />
 
-When you’re building a website for a company as ambitious as Planetaria, you need to make an impression. I wanted people to visit our website and see animations that looked more realistic than reality itself.
+The idea for [MacroFlex](www.macroflex.io) has shifted over the years.
 
-To make this possible, we needed to squeeze every drop of performance out of the browser possible. And so Animaginary was born.
+A few years ago it was a mobile app for people that track their macros and go to the gym (hence MacroFlex).
 
-```js
-import { animate } from '@planetaria/animaginary'
+This idea came to me because I've been using 3-5 different apps to track my progress (weight, nutrition, exercise, water, sleep, etc).
 
-export function MyComponent({ open, children }) {
-  return (
-    <animate.div
-      in={open}
-      animateFrom="opacity-0 scale-95"
-      animateTo="opacity-100 scale-100"
-      duration={350}
-    >
-      {children}
-    </animate.div>
-  )
-}
-```
+So having this all in one app sounded great!
 
-Animaginary is our new web animation library that redefines what you thought was possible on the web. Hand-written in optimized WASM, Animaginary can even animate the `height` property of an element at 60fps.
+Here's the problem 👇
 
-## Sermone fata
+Consumer apps don't typically do well as a business. People don't like to spend money on apps (unless you're me and I buy all apps 😉 ask my wife).
 
-Lorem markdownum, bracchia in redibam! Terque unda puppi nec, linguae posterior
-in utraque respicere candidus Mimasque formae; quae conantem cervice. Parcite
-variatus, redolentia adeunt. Tyrioque dies, naufraga sua adit partibus celanda
-torquere temptata, erit maneat et ramos, [iam](#) ait dominari
-potitus! Tibi litora matremque fumantia condi radicibus opusque.
+So my thought processes shifted from B2C to B2B as I thought about the business side of things.
 
-Deus feram verumque, fecit, ira tamen, terras per alienae victum. Mutantur
-levitate quas ubi arcum ripas oculos abest. Adest [commissaque
-victae](#) in gemitus nectareis ire diva
-dotibus ora, et findi huic invenit; fatis? Fractaque dare superinposita
-nimiumque simulatoremque sanguine, at voce aestibus diu! Quid veterum hausit tu
-nil utinam paternos ima, commentaque.
+### The First Transition
 
-```c
-exbibyte_wins = gigahertz(3);
-grayscaleUtilityClient = control_uat;
-pcmciaHibernate = oop_virus_console(text_mountain);
-if (stateWaisFirewire >= -2) {
-    jfs = 647065 / ldapVrml(tutorialRestore, 85);
-    metal_runtime_parse = roomComputingResolution - toolbarUpload +
-            ipx_nvram_open;
-} else {
-    maximizeSidebar *= suffix_url(flatbed + 2, requirements_encoding_node +
-            only_qbe_media, minicomputer);
-}
-```
+The light bulb fipped on 💡 - An app for personal trainers to use for their clients! They could use the app to assign macros, exercises, track progress, and get all the data/analytics to make adjustments.
 
-Aere repetiti cognataque natus. Habebat vela solutis saepe munus nondum adhuc
-oscula nomina pignora corpus deserat.
+During this transition I joined the [Indie Masterminds Community](https://indiemasterminds.com/) where we worked together in groups once per week to discuss our products. Everyone liked the idea of MacroFlex and I got great feedback. Some people even said - it really would be nice as a client to get the data and feedback and no longer user a spreadsheet.
 
-## Lethaei Pindumve me quae dinumerat Pavor
+The difficult part for me at the time (looking back I was just too scared to reach out and search) was finding fitness coaches that were willing to talk to me and use a new app for their clients. The coaches I did reach out to didn't seem to need a new app or they didn't care to give it the time of day.
 
-Idem se saxa fata pollentibus geminos; quos pedibus. Est urnis Herses omnes nec
-divite: et ille illa furit sim verbis Cyllenius.
+Finding comunities of certified coaches was a challenge for me. Unless I was a coach myself.
 
-1. Captus inpleverunt collo
-2. Nec nam placebant
-3. Siquos vulgus
-4. Dictis carissime fugae
-5. A tacitos nulla viginti
+### The Second Transition
 
-Ungues fistula annoso, ille addit linoque motatque uberior verso
-[rubuerunt](#) confine desuetaque. _Sanguine_ anteit
-emerguntque expugnacior est pennas iniqui ecce **haeret** genus: peiora imagine
-fossas Cephisos formosa! Refugitque amata [refelli](#)
-supplex. Summa brevis vetuere tenebas, hostes vetantis, suppressit, arreptum
-regna. Postquam conpescit iuvenis habet corpus, et erratica, perdere, tot mota
-ars talis.
+Over the last few years I've been on my own health/fitness journey. I've learned a lot and I had people asking questions about their situation. I've had a growing passtion for nutrition and fitness over the last few years and have felt like one day I might want to get certified to be a nutrition coach.
 
-```c
-digital.webcam_dual_frequency = webmasterMms;
-if (5 + language_standalone_google) {
-    cc_inbox_layout *= file_character;
-    task += p;
-    lockUnicode += enterprise_monochrome(tokenFunctionPersonal, keyVirtual,
-            adf);
-}
-windows_binary_esports(87734, array(restoreRomTopology, adRaw(407314),
-        dongleBashThumbnail), interpreter);
-```
+This also fit my brand with MacroFlex. If I was a coach, I could use this app for my clients + get the results to then market the app much better. I would be the test user and know first hand the issues.
 
-Sit volat naturam; motu Cancri. Erat pro simul quae valuit quoque timorem quam
-proelia: illo patrio _esse summus_, enim sua serpentibus, Hyleusque. Est coniuge
-recuso; refert Coroniden ignotos manat, adfectu.
+I also knew that if I joined a program I'd have access to other fitness coaches in the community. I wanted to be an [Embedded Entrepreneur](https://www.embeddedentrepreneur.com/).
+
+So I decided to get my nurition certification at [NCI](https://ncicertifications.com) to help others with their nutrition, build MacroFlex, and be in a community that I love and want to help.
+
+**The new phase of MacroFlex was born.**
+
+During the certification process we needed to work with "guiena pig" clients to gain experience and show that we can capable of being a coach and get certified. I soon realized that all coaches were either using apps that didn't quite fit nutrition, or were bloated, or they just didn't like.
+
+We were given a spreadsheet to use with our clients. I've learned over the years anytime a business is using a spreadsheet - you can turn it into a business.
+
+So that's what I'm doing. [MacroFlex](www.macroflex.io) is a CRM for Nutrition/Health Coaches.
+
+It allows them to:
+
+- Assign weekly tasks to clients
+- Generate macros based on the clients data
+- Keep track of macro progression, weight, sleep, steps
+- Keep track of biofeedback (stress, hunger, recovery, digestion, libido)
+
+All of these things work together, so having one app that allows you to see the clients overall picture will help make the adjustments needed to progress.
+
+That's the idea anyway - we'll see how it goes!
+
+Below are some images of the spreadsheet, stay tuned to see what it looks like in a few months!
+
+<div className="flex w-full flex-wrap gap-2">
+  <Image height={250} src={screenshot2} alt="" />
+  <Image height={250} src={screenshot3} alt="" />
+</div>
+
+P.S. If you want regular updates on how the month is going, [follow me on X](https://twitter.com/buildwithtaylor)
+
+P.S.S If you'd rather get updates to your email, [join my newsletter](https://indiepa.ge/taylorcovington)
