@@ -81,9 +81,8 @@ export default function About() {
               from there I fell in love with it.
             </p>
             <p>
-              Today, I’m the founder of MacroFlex, where we’re working on making
-              it easier for nutrition coaches to get their clients results using
-              a <em>data driven</em>
+              Today, I’m building MacroFlex, where we’re working on making it
+              easier for nutrition coaches to get their clients results using a data driven
               approach to nutrition and health.
             </p>
           </div>
