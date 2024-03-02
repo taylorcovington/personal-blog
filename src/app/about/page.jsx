@@ -10,6 +10,7 @@ import {
   TwitterIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
+import signature from '@/images/Transparent-cyan.png'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -81,9 +82,22 @@ export default function About() {
               from there I fell in love with it.
             </p>
             <p>
-              Today, I’m building MacroFlex, where we’re working on making it
-              easier for nutrition coaches to get their clients results using a data driven
-              approach to nutrition and health.
+              I've been exploring different business ideas for the last 6 years.
+              I don't have much to show for it at this point, besides many
+              failures and a lot of learnings. In 2024 that all changes tho and
+              I'm documenting the journey.
+            </p>
+            <p>
+              Today, I’m building exploring different businuess to see what
+              sticks. I'm currenly working on MacroFlex, where we’re working on
+              making it easier for nutrition coaches to get their clients
+              results using a data driven approach to nutrition and health. I'm
+              also a certified Nutrition Coach helping people get in the best
+              shape of their lives.
+            </p>
+            <p>
+              I'm also exploring other business opportunities through
+              acquisition. My latest venture is a vending machine business!{' '}
             </p>
           </div>
         </div>
@@ -125,6 +139,7 @@ export default function About() {
             </SocialLink>
           </ul>
         </div>
+        <Image src={signature} alt="signature" width={150} />
       </div>
     </Container>
   )
