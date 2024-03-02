@@ -40,7 +40,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Taylor Covington. I live in Salt Lake City, where I build apps for a better future.',
+    'I&apos;m Taylor Covington. I live in Salt Lake City, where I build apps for a better future.',
 }
 
 export default function About() {
@@ -59,14 +59,14 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m Taylor Covington. I live in Salt Lake City, where I build apps
-            for a better future.
+            I&apos;m Taylor Covington. I live in Salt Lake City, where I build
+            apps for a better future.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved business for as long as I can remember, and started
-              selling things when I was 12 years old. Soon after I was at
-              business conferences at the age of 16.
+              I&apos;ve loved business for as long as I can remember, and
+              started selling things when I was 12 years old. Soon after I was
+              at business conferences at the age of 16.
             </p>
             <p>
               The only thing I loved more than building things was health and
@@ -82,21 +82,21 @@ export default function About() {
               from there I fell in love with it.
             </p>
             <p>
-              I've been exploring different business ideas for the last 6 years.
-              I don't have much to show for it at this point, besides many
-              failures and a lot of learnings. In 2024 that all changes tho and
-              I'm documenting the journey.
+              I&apos;ve been exploring different business ideas for the last 6
+              years. I don&apos;t have much to show for it at this point,
+              besides many failures and a lot of learnings. In 2024 that all
+              changes tho and I&apos;m documenting the journey.
             </p>
             <p>
-              Today, I’m building exploring different businuess to see what
-              sticks. I'm currenly working on MacroFlex, where we’re working on
-              making it easier for nutrition coaches to get their clients
-              results using a data driven approach to nutrition and health. I'm
-              also a certified Nutrition Coach helping people get in the best
-              shape of their lives.
+              Today, I&apos;m building exploring different businuess to see what
+              sticks. I&apos;m currenly working on MacroFlex, where we&apos;re
+              working on making it easier for nutrition coaches to get their
+              clients results using a data driven approach to nutrition and
+              health. I&apos;m also a certified Nutrition Coach helping people
+              get in the best shape of their lives.
             </p>
             <p>
-              I'm also exploring other business opportunities through
+              I&apos;m also exploring other business opportunities through
               acquisition. My latest venture is a vending machine business!{' '}
             </p>
           </div>
